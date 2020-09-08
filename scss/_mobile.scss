@@ -1,0 +1,29 @@
+@media only screen and (max-width: 768px) {
+  // Navbar
+  #navbar {
+    text-align: center;
+    .logo {
+      float: none;
+    }
+  }
+
+  // Showcase
+  #showcase {
+    text-align: center;
+    height: 100%;
+    padding: 80px;
+    p {
+      width: 100%;
+    }
+    a {
+      margin: 10px;
+    }
+  } //#showcase
+
+  #movies {
+    text-align: center;
+    .movies-wrap {
+      flex-direction: column;
+    } //End .movies-wrap
+  } //End #movies
+} //End @media

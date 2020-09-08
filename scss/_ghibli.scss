@@ -1,0 +1,35 @@
+// Navbar
+#navbar {
+  .logo {
+    float: left;
+    font-weight: 900;
+  }
+}
+
+// Showcase
+#showcase {
+  background: url('../img/showcase.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  padding-top: 180px;
+  h2 {
+    font-weight: 400;
+  }
+  p {
+    width: 30%;
+  }
+} //#showcase
+
+#movies {
+  .movies-wrap {
+    display: flex;
+    justify-content: space-between;
+    &-box {
+      img {
+        height: 300px;
+      }
+    }
+  } //End .movies-wrap
+} //End #movies
